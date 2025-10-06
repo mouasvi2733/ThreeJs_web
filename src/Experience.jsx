@@ -45,7 +45,7 @@ export default function Experience()
                 </primitive>
 
                 <Text
-                    color={'#302656ff'}
+                    color={'#1f1c2dff'}
                     font="./bangers-v20-latin-regular.woff"
                     fontSize={ 1 }
                     position={ [ 2, 0.75, 0.75 ] }
@@ -54,7 +54,7 @@ export default function Experience()
                      }
                     maxWidth={ 2 }
                 >
-                    ASAN TAMIN
+                    ASAN 
                 </Text>
             </Float>
         </PresentationControls>
