@@ -23,7 +23,7 @@ export default function Experience()
                     width={ 2.5 }
                     height={ 1.65 }
                     intensity={ 65 }
-                    color={ '#d9ecf8' }
+                    color={ '#93b9d0ff' }
                     rotation={ [ - 0.1, Math.PI, 0 ] }
                     position={ [ 0, 0.55, - 1.15 ] }
                 />
@@ -40,12 +40,12 @@ export default function Experience()
                         position={ [ 0, 1.56, - 1.4 ] }
                         rotation-x={ - 0.256 }
                     >
-                        <iframe src="https://soorastudio.ir/" />
+                        <iframe src="https://https://asantaminholding.com/" />
                     </Html>
                 </primitive>
 
                 <Text
-                    color={'#4da0a9'}
+                    color={'#302656ff'}
                     font="./bangers-v20-latin-regular.woff"
                     fontSize={ 1 }
                     position={ [ 2, 0.75, 0.75 ] }
@@ -54,7 +54,7 @@ export default function Experience()
                      }
                     maxWidth={ 2 }
                 >
-                    SOORA STUDIO
+                    ASAN TAMIN
                 </Text>
             </Float>
         </PresentationControls>
