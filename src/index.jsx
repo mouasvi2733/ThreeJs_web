@@ -9,7 +9,7 @@ root.render(
     <Canvas
         className="r3f"
         camera={ {
-            fov: 90,
+            fov: 120,
             near: 0.1,
             far: 2000,
             position: [ -3, 1.5, 4 ]
