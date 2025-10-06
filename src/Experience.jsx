@@ -16,8 +16,8 @@ export default function Experience()
     {
         // موقعیت هدف دوربین را بر اساس وضعیت فوکوس تعیین می‌کنیم
         const targetPosition = isFocused 
-            ? new THREE.Vector3(0, 0.6, 1.8)  // موقعیت زوم شده (روبروی لپ‌تاپ)
-            : new THREE.Vector3(-2, 1.8, 5); // موقعیت اولیه و پیش‌فرض
+            ? new THREE.Vector3(0, 0.1, 2)  // موقعیت زوم شده (روبروی لپ‌تاپ)
+            : new THREE.Vector3(-4, 1.8, 5); // موقعیت اولیه و پیش‌فرض
             state.camera.position.lerp(targetPosition, 0.01)
             state.camera.lookAt(0, 0, 0)
 
@@ -33,7 +33,7 @@ export default function Experience()
     
     return <>
 
-        <color args={ [ '#000000' ] } attach="background" />
+        <color args={ [ '#63c5d5' ] } attach="background" />
 
         <Environment preset="city" />
         
@@ -76,7 +76,7 @@ export default function Experience()
                         position={ [ 0, 1.56, - 1.4 ] }
                         rotation-x={ - 0.256 }
                     >
-                        <iframe src="https://google.com/" />
+                        <iframe src="https://www.artstation.com/hosseinmousaviuk/" />
                     </Html>
                 </primitive>
 
