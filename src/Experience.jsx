@@ -39,7 +39,7 @@ export default function Experience()
         
         <PresentationControls
             global
-            rotation={ [ 0.13, 0.1, 0 ] }
+            rotation={ [ 0.13, 0.2, 0 ] }
             polar={ [ - 0.3, 0.2 ] }
             azimuth={ [ - 1, 0.75 ] }
             config={ { mass: 2, tension: 400 } }
@@ -58,7 +58,8 @@ export default function Experience()
                 {/* مرحله ۳: اضافه کردن رویدادهای کلیک به مدل */}
                 <primitive
                     object={ computer.scene }
-                    position-y={ - 1.2 }
+                    position-y={ - 1.1 }
+                    position-x={ -1.5 }
                     // وقتی روی مدل کلیک شد
                     onClick={ (event) => 
                     {
@@ -96,7 +97,7 @@ export default function Experience()
         <ContactShadows
             position-y={ - 1.4 }
             opacity={ 0.2 }
-            scale={ 4 }
+            scale={ 10 }
             blur={ 2.4 }
         />
 
