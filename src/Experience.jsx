@@ -96,7 +96,7 @@ export default function Experience()
 
         <ContactShadows
             position-y={ - 1.4 }
-            opacity={ 0.2 }
+            opacity={ 0.19 }
             scale={ 10 }
             blur={ 2.4 }
         />
