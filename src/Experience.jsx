@@ -16,7 +16,7 @@ export default function Experience()
     {
         // موقعیت هدف دوربین را بر اساس وضعیت فوکوس تعیین می‌کنیم
         const targetPosition = isFocused 
-            ? new THREE.Vector3(0, 0.1, 2)  // موقعیت زوم شده (روبروی لپ‌تاپ)
+            ? new THREE.Vector3(0, 0.3, 2)  // موقعیت زوم شده (روبروی لپ‌تاپ)
             : new THREE.Vector3(-4, 1.8, 5); // موقعیت اولیه و پیش‌فرض
             state.camera.position.lerp(targetPosition, 0.01)
             state.camera.lookAt(0, 0, 0)
@@ -86,8 +86,8 @@ export default function Experience()
                     color={'#e6e6e6ff'}
                     font="./bangers-v20-latin-regular.woff"
                     fontSize={ 1 }
-                    position={ [ 5, 0.75, 0.75 ] }
-                    rotation-y={ - 1.40 }
+                    position={ [ 7, 2, 3.5 ] }
+                    rotation-y={ - 1.5 }
                     maxWidth={ 2 }
                 >
                     TEST 
@@ -98,7 +98,7 @@ export default function Experience()
         <ContactShadows
             position-y={ - 1.4 }
             opacity={ 0.19 }
-            scale={ 10 }
+            scale={ 15 }
             blur={ 2.4 }
         />
 
