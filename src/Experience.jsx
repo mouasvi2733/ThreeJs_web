@@ -59,7 +59,8 @@ export default function Experience()
                 <primitive
                     object={ computer.scene }
                     position-y={ - 1.1 }
-                    position-x={ -1.5 }
+                    position-x={ -2 }
+                    position-z={ -3 }
                     // وقتی روی مدل کلیک شد
                     onClick={ (event) => 
                     {
@@ -85,7 +86,7 @@ export default function Experience()
                     color={'#e6e6e6ff'}
                     font="./bangers-v20-latin-regular.woff"
                     fontSize={ 1 }
-                    position={ [ 2, 0.75, 0.75 ] }
+                    position={ [ 5, 0.75, 0.75 ] }
                     rotation-y={ - 1.40 }
                     maxWidth={ 2 }
                 >
