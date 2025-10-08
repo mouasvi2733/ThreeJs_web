@@ -16,7 +16,7 @@ export default function Experience()
     {
         // موقعیت هدف دوربین را بر اساس وضعیت فوکوس تعیین می‌کنیم
         const targetPosition = isFocused 
-            ? new THREE.Vector3(0, 0.3, 2)  // موقعیت زوم شده (روبروی لپ‌تاپ)
+            ? new THREE.Vector3(0.35, 0.3, 2)  // موقعیت زوم شده (روبروی لپ‌تاپ)
             : new THREE.Vector3(-4, 1.8, 5); // موقعیت اولیه و پیش‌فرض
             state.camera.position.lerp(targetPosition, 0.01)
             state.camera.lookAt(0, 0, 0)
@@ -58,9 +58,9 @@ export default function Experience()
                 {/* مرحله ۳: اضافه کردن رویدادهای کلیک به مدل */}
                 <primitive
                     object={ computer.scene }
-                    position-y={ - 1.1 }
-                    position-x={ -2 }
-                    position-z={ -3 }
+                    position-y={ - 1.5 }
+                    position-x={0.2 }
+                    position-z={ 1.6 }
                     // وقتی روی مدل کلیک شد
                     onClick={ (event) => 
                     {
