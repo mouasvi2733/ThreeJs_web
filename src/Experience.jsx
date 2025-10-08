@@ -33,7 +33,7 @@ export default function Experience()
     
     return <>
 
-        <color args={ [ '#63c5d5' ] } attach="background" />
+        <color args={ [ '#335C67' ] } attach="background" />
 
         <Environment preset="city" />
         
